@@ -1,0 +1,37 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
+
+.Display {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  background-color: black;
+}
+
+@keyframes Rainbow {
+  0%,
+  100% {
+    background-color: red;
+  }
+  14% {
+    background-color: orange;
+  }
+  28% {
+    background-color: yellow;
+  }
+  42% {
+    background-color: green;
+  }
+  56% {
+    background-color: blue;
+  }
+  70% {
+    background-color: indigo;
+  }
+  84% {
+    background-color: violet;
+  }
+}
